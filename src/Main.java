@@ -1,9 +1,17 @@
+import java.util.Scanner;
+
 
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
+		Conta conta = new Conta();
+		System.out.println("Digite o valor a ser sacado: ");
+		System.out.println("Notas disponíveis de 100, 50, 20 e 10");
+		Scanner sc = new Scanner(System.in);
+		double valor = sc.nextDouble();
+		conta.sacar(valor);
 	}
+
+
 
 }
