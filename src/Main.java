@@ -9,7 +9,8 @@ public class Main {
 		System.out.println("Notas disponíveis de 100, 50, 20 e 10");
 		Scanner sc = new Scanner(System.in);
 		double valor = sc.nextDouble();
-		conta.sacar(valor);
+		//conta.sacarInfinito(valor);
+		conta.sacarFinito(valor);
 	}
 
 
